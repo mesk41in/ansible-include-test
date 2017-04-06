@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+
+  roles:
+    - role: a
+      a:
+        name: a1
+    - role: a
+      a:
+        name: a2
+

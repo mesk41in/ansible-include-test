@@ -1,0 +1,5 @@
+---
+- name: output name in include
+  debug:
+    msg: "{{ b.name }}"
+

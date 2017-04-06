@@ -1,0 +1,8 @@
+---
+- name: output name
+  debug:
+    msg: "{{ a.name }}"
+
+- include: include.yml
+  static: no
+
